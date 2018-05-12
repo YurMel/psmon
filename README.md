@@ -11,10 +11,12 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
 
   * Install via `pip install psutil`.
 
-## Usage PSMON utility python script
+## Usage python script
 
-  systax: `./psmon <arg>`
-  Argument `<arg>` can be `cpu` or `mem`
+  * Systax: `./psmon.py <arg>`
+  * Option `<arg>`
+   - `cpu`
+   - `mem`
 
   run scritps in workspace directory
   ```sh
