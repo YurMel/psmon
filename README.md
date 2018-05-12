@@ -18,7 +18,7 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
     - `cpu`
     - `mem`
 
-  run scritps in workspace directory
+  Run scritps in workspace directory (**Example**)
   ```sh
   ./psmon.py mem
   ```
