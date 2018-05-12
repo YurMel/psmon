@@ -16,14 +16,12 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
   systax: `./psmon <arg>`
   Argument `<arg>` can be `cpu` or `mem`
 
+  run scritps in workspace directory
   ```sh
-    ./psmon mem
+    ./psmon.py mem
   ```
 
-## Build
-
-  `docker build . -t psmon`
-
-## Run into Docker
-
-  `docker run psmon <arg>`
+## Run into the Docker
+  * Install docker according official [documentation] (https://docs.docker.com/install/linux/docker-ce/debian/)
+  * Build `docker build . -t psmon`
+  * Run into Docker `docker run psmon <arg>`
