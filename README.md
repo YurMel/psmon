@@ -11,14 +11,14 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
 
   * Install via `pip install psutil`.
 
-## Usage
+## Usage PSMON utility python script
 
   systax: `./psmon <arg>`
   Argument `<arg>` can be `cpu` or `mem`
 
   run scritps in workspace directory
   ```sh
-    ./psmon.py mem
+  ./psmon.py mem
   ```
 
 ## Run into the Docker
