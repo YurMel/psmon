@@ -22,6 +22,6 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
   ```
 
 ## Run into the Docker
-  * Install docker according official [documentation] (https://docs.docker.com/install/linux/docker-ce/debian/)
+  * Install docker according official [documentation](https://docs.docker.com/install/linux/docker-ce/debian/)
   * Build `docker build . -t psmon`
   * Run into Docker `docker run psmon <arg>`
