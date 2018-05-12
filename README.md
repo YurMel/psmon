@@ -6,12 +6,12 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
 ## Getting Started
     * Install `sudo apt-get install python-pip git`.
 
-## Installing psutil
+## Install psutil
     * Install via `pip install psutil`.
 
 ## Usage
     systax: `./psmon <arg>`
     Argument `<arg>` can be `cpu` or `mem`
-    ```
+    ```sh
 	./psmon mem
     ```
