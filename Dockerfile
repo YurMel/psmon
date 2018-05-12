@@ -14,6 +14,6 @@ RUN apt-get update \
 RUN pip install psutil
 
 # Clone psmon utility into the docker container
-RUN git clone https://github.com/YurMel/psmon.git /opt
+RUN git clone https://github.com/YurMel/psmon.git /opt/psmon
 
-ENTRYPOINT ["python", "psmon.py"]
+ENTRYPOINT ["python", "/opt/psmon/psmon.py"]
