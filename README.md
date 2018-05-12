@@ -19,3 +19,11 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
   ```sh
     ./psmon mem
   ```
+
+## Build
+
+  `docker build . -t psmon`
+
+## Run into Docker
+
+  `docker run psmon <arg>`
