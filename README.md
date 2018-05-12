@@ -14,9 +14,9 @@ It is capable of collecting cpu, memory, network, i/o, load and disk metrics
 ## Usage python script
 
   * Systax: `./psmon.py <arg>`
-  * Option `<arg>`
-   - `cpu`
-   - `mem`
+  * Options `<arg>`
+    - `cpu`
+    - `mem`
 
   run scritps in workspace directory
   ```sh
