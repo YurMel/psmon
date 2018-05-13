@@ -22,6 +22,13 @@ def psmon(data_type):
 	print "swap used", swap.used
 	print "swap free", swap.free
 	print "swap percent", swap.percent
+    elif data_type == 'disk':
+	disk = psutil.disk_partitions()
+	for i in range(len(disk)):
+	    print "disk device", disk[i].device
+	    print "disk mountpoint", disk[i].mountpoint
+	    print "disk fstype", disk[i].fstype
+	    print "mount options", disk[i].opts
     else:
 	print("Wrong type of data")
 
