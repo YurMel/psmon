@@ -16,6 +16,12 @@ def psmon(data_type):
 	print "virtual used", mem.used
 	print "virtual free", mem.free
 	print "virtual shared", mem.shared
+    elif data_type == 'swap':
+	swap = psutil.swap_memory()
+	print "swap total", swap.total
+	print "swap used", swap.used
+	print "swap free", swap.free
+	print "swap percent", swap.percent
     else:
 	print("Wrong type of data")
 
